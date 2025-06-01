@@ -23,7 +23,7 @@
 * Построены гистограммы для категориальных признаков.
 * Проанализировано распределение целевой переменной `y` (балансировка классов).
 
-[Код проекта][(https://github.com/karaylkin/ML/blob/main/Project1.ipynb)
+[Код проекта](https://github.com/karaylkin/ML/blob/main/Project1.ipynb)
 
 ---
 
@@ -56,8 +56,10 @@
 + ROC-кривая
 - Победитель: модель с наибольшим ROC AUC
 
-![[Pasted image 20250602010657.png]]
-![[Pasted image 20250602010751.png]]
+![Pasted image 20250602010657](https://github.com/user-attachments/assets/1bcff897-15c2-4663-aee0-f20a737f271e)
+
+![Pasted image 20250602010751](https://github.com/user-attachments/assets/98fe2694-732a-4857-a259-9e14a5814b8d)
+
 ---
 
 ### Развёртывание модели (API)
@@ -67,16 +69,20 @@
 + `GET /` — HTML интерфейс
 + `POST /predict` — JSON-запрос с признаками, возвращает `{'prediction': 0/1}`
 - Загружается сохранённая модель `*.pkl`
-![[Pasted image 20250602010848.png]]
+![Pasted image 20250602010848](https://github.com/user-attachments/assets/2dd2e0e3-a800-429e-866a-c81ad5dbcf4d)
+
+![Pasted image 20250602010937](https://github.com/user-attachments/assets/2806e3af-5b9a-4847-9553-aaa6c4b190a7)
+
 ---
-![[Pasted image 20250602010937.png]]
+
 ### Фронтенд-приложение
 
 - HTML форма с выпадающими списками и полями ввода
 - Результат отображается без перезагрузки (JavaScript + fetch API)
 
-![[Pasted image 20250602011106.png]]
-![[Pasted image 20250602011217.png]]
+![Pasted image 20250602011106](https://github.com/user-attachments/assets/b484c0a4-4c4e-4703-9e65-342c5679a01e)
+
+![Pasted image 20250602011217](https://github.com/user-attachments/assets/cf780f0c-a018-4f6d-98ac-67126fe5ebfd)
 
 ---
 
